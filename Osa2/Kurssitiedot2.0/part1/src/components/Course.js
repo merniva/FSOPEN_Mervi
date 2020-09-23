@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Part = (props) => (
+const Part = ({course}) => (
     <>
-      {props.course.map((c) => (
+      {course.map((c) => (
         <p key={c.id}>
           {" "}
           {c.name} {c.exercises}{" "}

@@ -1,0 +1,21 @@
+.notificationMsg {
+    color: #4d4d4d;
+    background-color: #90EE90;
+    max-width: 50%;
+    font-weight: bold;
+    border-style: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.errorMsg {
+    color: #FFF;
+    background-color: #B22222;
+    max-width: 50%;
+    font-weight: bold;
+    border-style: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}

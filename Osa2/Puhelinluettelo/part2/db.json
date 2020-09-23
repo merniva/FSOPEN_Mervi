@@ -1,0 +1,48 @@
+{
+  "persons": [
+    {
+      "name": "Saima Kissa",
+      "number": "392399",
+      "id": 7
+    },
+    {
+      "name": "Hilla Kissa",
+      "number": "12 12 12",
+      "id": 10
+    },
+    {
+      "name": "Maija Kissa ",
+      "number": "0441922",
+      "id": 11
+    },
+    {
+      "29492": "",
+      "id": 13
+    },
+    {
+      "name": "Arthur Rimbaud",
+      "number": "233-12129",
+      "id": 15
+    },
+    {
+      "name": "Seppo",
+      "number": "2489-129",
+      "id": 16
+    },
+    {
+      "name": "Eno Elmeri",
+      "number": "2839-129090",
+      "id": 17
+    },
+    {
+      "name": "Simo Sisu",
+      "number": "894-11929",
+      "id": 18
+    },
+    {
+      "name": "Joku Raimo",
+      "number": "3489",
+      "id": 19
+    }
+  ]
+}
