@@ -4,7 +4,6 @@ import "./App.css";
 import Notification from "./components/Notification";
 import Error from "./components/Error";
 
-
 const Filter = ({ searchName, handleFilterChange }) => (
   <>
     <div>
@@ -87,7 +86,14 @@ const App = () => {
         setTimeout(() => {
           setNotification(null);
         }, 5000);
-      });
+      })
+      .catch(error => {
+        console.log(error.response.data);
+        setError(error.response.data.error);
+            setTimeout(() => {
+              setError(null);
+            }, 5000);
+      })
     } else {
       const selection = window.confirm(
         `${newName} on jo lisätty luetteloon, haluatko päivittää numeron?`
