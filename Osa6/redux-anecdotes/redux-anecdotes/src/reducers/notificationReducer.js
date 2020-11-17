@@ -18,13 +18,18 @@ export const clearNotification = (notification) => {
   };
 };
 
+let timer = null;
+
 export const setNotification = (notification, time) => {
   return async (dispatch) => {
     dispatch({
       type: "SHOW_NOTIFICATION",
       msg: notification,
     });
-    setTimeout(() => {
+    if (timer) {
+      clearTimeout(timer)
+    }
+    timer = setTimeout(() => {
       dispatch(clearNotification());
     }, time * 100);
   };

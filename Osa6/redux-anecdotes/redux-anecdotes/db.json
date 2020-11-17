@@ -2,7 +2,7 @@
   "anecdotes": [
     {
       "content": "If it hurts, do it more often",
-      "votes": 3,
+      "votes": 8,
       "id": "47145"
     },
     {
@@ -13,7 +13,7 @@
     {
       "content": "The first 90 percent of the code accounts for the first 90 percent of the development time...The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
       "id": "69581",
-      "votes": 0
+      "votes": 1
     },
     {
       "content": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
@@ -23,16 +23,16 @@
     {
       "content": "Premature optimization is the root of all evil.",
       "id": "25170",
-      "votes": 3
+      "votes": 8
     },
     {
       "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
-      "votes": 2,
+      "votes": 5,
       "id": "98312"
     },
     {
       "content": "A Lannister always pays his debts",
-      "votes": 9,
+      "votes": 19,
       "id": "xSBqi7Z"
     },
     {
@@ -41,9 +41,19 @@
       "id": "W_FFu2N"
     },
     {
-      "content": "Esimerkki Anekdootti",
+      "content": "My hovercraft is full of eels",
+      "votes": 0,
+      "id": "vsU1bnc"
+    },
+    {
+      "content": "Programming can be fun, so can cryptography; however they should not be combined.",
+      "votes": 2,
+      "id": "S35tfyN"
+    },
+    {
+      "content": "Come on everybody, let's Tuusi Muusi",
       "votes": 1,
-      "id": "HwyO8Vj"
+      "id": "GMeIAgp"
     }
   ]
 }
